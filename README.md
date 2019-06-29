@@ -1,6 +1,6 @@
 # NTPU-Rate
 
-A demo that shows some analytic results from social media (currently Facebook).
+A demo that shows some analytic results from social media (currently Facebook).  
 Data crawled by Facebook Graph API, target fanspage: [靠北北大](https://www.facebook.com/NTPUhate/)
 
 ## TODO List
@@ -24,3 +24,10 @@ Data crawled by Facebook Graph API, target fanspage: [靠北北大](https://www.
     ```
     
 3. open the website with link: `http://127.0.0.1:<port>`
+
+## notes
+- to view results in other timelines, you have to:
+    1. crawl the data of `2018-01-01` to `2018-12-01`
+    2. create a json file in correct format (as in the [source](https://github.com/RainBoltz/NTPU-Rate/tree/master/view))
+    3. name the file name into `[SOURCE]-[ANALYSIS_TARGET]-[METHOD]_[start-time]_[end-time]` ([example](https://github.com/RainBoltz/NTPU-Rate/tree/master/view))
+    4. dump to `json` files
